@@ -101,11 +101,10 @@ public class Main {
         2. Удалить повторяющиеся строки из массива strings, заменив их на null (null должны быть не строками "null").*/
         System.out.println("Task 5");
         String[] str5 = new String[6];
-        for(int i=0; i<6; i++){
+        for(i=0; i<6; i++){
             str5[i] =sc.nextLine();
         }
-        int k=0;
-        for(int i=0; i<str5.length; i++){
+        for(i=0; i<str5.length; i++){
             for(int j=0; j<str5.length; j++){
                 if(i!=j && str5[i]!=null) {
                     if (str5[i].equals(str5[j])) {
@@ -114,7 +113,7 @@ public class Main {
                 }
             }
         }
-        for(int i=0; i<str5.length; i++){
+        for(i=0; i<str5.length; i++){
             System.out.println(str5[i]);
         }
     }
